@@ -13,12 +13,24 @@
           i++
         if(i == answer.length){
               i = 0;
-              j= 0;
+              
           }
 
-          document.getElementById("btn01").innerHTML=answer[i]
-          document.getElementById("yourTurn").innerHTML = solution[j]
+          document.getElementById("btn01").innerHTML=answer[i] 
+          
+          //document.getElementById("yourTurn").innerHTML = solution[j]
           //document.getElementById("yourTurn").innerHTML ="Player 2 turn!"
+      }
+
+      var j = 0;
+      document.getElementById("btn01").addEventListener("click", changeTitle)
+
+      function changeTitle() {
+          j++
+          if(j== solution.length) {
+              j = 0;
+          }
+          document.getElementById("yourTurn").innerHTML = solution[j]
       }
 
 

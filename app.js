@@ -70,7 +70,16 @@
     
               document.getElementById("btn03").innerHTML=answer[i]
           }
-
+          var j = 0;
+          document.getElementById("btn03").addEventListener("click", changeTitle)
+    
+          function changeTitle() {
+              j++
+              if(j== solution.length) {
+                  j = 0;
+              }
+              document.getElementById("yourTurn").innerHTML = solution[j]
+          }
 
           var i = 0;
           document.getElementById("btn04").addEventListener("click", choose4);
@@ -82,6 +91,17 @@
                 }
       
                 document.getElementById("btn04").innerHTML=answer[i]
+            }
+
+            var j = 0;
+            document.getElementById("btn04").addEventListener("click", changeTitle)
+      
+            function changeTitle() {
+                j++
+                if(j== solution.length) {
+                    j = 0;
+                }
+                document.getElementById("yourTurn").innerHTML = solution[j]
             }
 
 
@@ -97,6 +117,17 @@
                   document.getElementById("btn05").innerHTML=answer[i]
               }
 
+              var j = 0;
+              document.getElementById("btn05").addEventListener("click", changeTitle)
+        
+              function changeTitle() {
+                  j++
+                  if(j== solution.length) {
+                      j = 0;
+                  }
+                  document.getElementById("yourTurn").innerHTML = solution[j]
+              }
+
               var i = 0;
               document.getElementById("btn06").addEventListener("click", choose6);
                
@@ -107,6 +138,17 @@
                     }
           
                     document.getElementById("btn06").innerHTML=answer[i]
+                }
+
+                var j = 0;
+                document.getElementById("btn06").addEventListener("click", changeTitle)
+          
+                function changeTitle() {
+                    j++
+                    if(j== solution.length) {
+                        j = 0;
+                    }
+                    document.getElementById("yourTurn").innerHTML = solution[j]
                 }
 
                 var i = 0;
@@ -120,7 +162,16 @@
             
                       document.getElementById("btn07").innerHTML=answer[i]
                   }
-
+                  var j = 0;
+                  document.getElementById("btn07").addEventListener("click", changeTitle)
+            
+                  function changeTitle() {
+                      j++
+                      if(j== solution.length) {
+                          j = 0;
+                      }
+                      document.getElementById("yourTurn").innerHTML = solution[j]
+                  }
                   var i = 0;
                   document.getElementById("btn08").addEventListener("click", choose8);
                    
@@ -133,7 +184,16 @@
                         document.getElementById("btn08").innerHTML=answer[i]
                     }
 
-
+                    var j = 0;
+                    document.getElementById("btn08").addEventListener("click", changeTitle)
+              
+                    function changeTitle() {
+                        j++
+                        if(j== solution.length) {
+                            j = 0;
+                        }
+                        document.getElementById("yourTurn").innerHTML = solution[j]
+                    }
                     var i = 0;
                     document.getElementById("btn09").addEventListener("click", choose9);
                      
@@ -146,7 +206,16 @@
                           document.getElementById("btn09").innerHTML=answer[i]
                       }
       
-
+                      var j = 0;
+                      document.getElementById("btn09").addEventListener("click", changeTitle)
+                
+                      function changeTitle() {
+                          j++
+                          if(j== solution.length) {
+                              j = 0;
+                          }
+                          document.getElementById("yourTurn").innerHTML = solution[j]
+                      }
 
 
 

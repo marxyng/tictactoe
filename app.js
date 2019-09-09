@@ -41,10 +41,22 @@
             i++
           if(i == answer.length){
                 i = 0;
+                
             }
   
             document.getElementById("btn02").innerHTML=answer[i]
-           
+          
+        }
+
+        var j = 0;
+        document.getElementById("btn02").addEventListener("click", changeTitle)
+  
+        function changeTitle() {
+            j++
+            if(j== solution.length) {
+                j = 0;
+            }
+            document.getElementById("yourTurn").innerHTML = solution[j]
         }
 
         var i = 0;

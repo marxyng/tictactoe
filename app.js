@@ -235,8 +235,73 @@ var label9= document.getElementById("btn09");
  function bigWinner(){
 if(label1.innerHTML === "X" & label2.innerHTML ==="X" & label3.innerHTML ==="X"){
     document.getElementById("youAreTheWinner").innerHTML="You are the winner";
+} else {
+    if(label4.innerHTML === "X" & label5.innerHTML === "X" & label6.innerHTML=== "X"){
+        document.getElementById("youAreTheWinner").innerHTML="You are the winner";
+    }else{
+        if(label7.innerHTML ==="X" & label8.innerHTML=== "X" & label9.innerHTML === "X"){
+            document.getElementById("youAreTheWinner").innerHTML="You are the winner";
+
+        }else{
+if(label1.innerHTML === "X" & label4.innerHTML === "X" & label7.innerHTML === "X"){
+    document.getElementById("youAreTheWinner").innerHTML="You are the winner";
+} else {
+    if(label2.innerHTML=== "X" & label5.innerHTML==="X" & label8.innerHTML==="X"){
+        document.getElementById("youAreTheWinner").innerHTML = "You are the winner";
+} else {
+    if(label3.innerHTML=== "X" & label6.innerHTML==="X" & label9.innerHTML ==="X"){
+        document.getElementById("youAreTheWinner").innerHTML = "You are the winner";
+    }else {
+        document.getElementById("youAreTheWinner").innerHTML = "You are the winner";
+    
+        
+/*
+    if(label1.innerHTML === "O" & label2.innerHTML ==="O" & label3.innerHTML ==="O"){
+        document.getElementById("youAreTheWinner").innerHTML="You are the winner";
+    } else {
+        if(label4.innerHTML === "O" & label5.innerHTML === "O" & label6.innerHTML=== "O"){
+            document.getElementById("youAreTheWinner").innerHTML="You are the winner";
+        }else{
+            if(label7.innerHTML ==="O" & label8.innerHTML=== "O" & label9.innerHTML === "O"){
+                document.getElementById("youAreTheWinner").innerHTML="You are the winner";
+    
+            }else{
+    if(label1.innerHTML === "O" & label4.innerHTML === "O" & label7.innerHTML === "O"){
+        document.getElementById("youAreTheWinner").innerHTML="You are the winner";
+    } else {
+        if(label2.innerHTML=== "O" & label5.innerHTML==="O" & label8.innerHTML==="O"){
+            document.getElementById("youAreTheWinner").innerHTML = "You are the winner";
+    } else {
+        if(label3.innerHTML=== "O" & label6.innerHTML==="O" & label9.innerHTML ==="O"){
+            document.getElementById("youAreTheWinner").innerHTML = "You are the winner";
+    
+
 }
- }
+    }
+}
+            }
+        
+         /*  
+        
+           
+
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+ /*
 let allPawns = [ label1, label2, label3, label4, label5, label6, label7, label8, label9];
  let allClick= [
  label1.addEventListener("click", computerPlay),
@@ -249,6 +314,8 @@ let allPawns = [ label1, label2, label3, label4, label5, label6, label7, label8,
  label8.addEventListener("click", computerPlay),
  label9.addEventListener("click", computerPlay),
  ]
+ */
+ /*
 //math.floor(math.round);
  function computerPlay() {
     let random = allPawns(math.floor(math.random))
@@ -258,11 +325,14 @@ let allPawns = [ label1, label2, label3, label4, label5, label6, label7, label8,
          
          
      }
+*/
 
- 
 
+        }
+    }
+}
+}
+}
+        }
+    }
 
-          
-    
-      
-      

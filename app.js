@@ -1,8 +1,14 @@
-//let label1 = document.getElementById("btn01");
-//let label2 = document.getElementById("btn02");
-//let label3 = document.getElementById("btn03");
+var  label1 = document.getElementById("btn01");
+var label2 = document.getElementById("btn02");
+var label3 = document.getElementById("btn03");
+var label4= document.getElementById("btn04");
+var label5= document.getElementById("btn05");
+var label6= document.getElementById("btn06");
+var label7= document.getElementById("btn07");
+var label8= document.getElementById("btn08");
+var label9= document.getElementById("btn09");
     
-    var answer = [ "", "X", "O"];
+    var answer = [ "X", "O"];
     var solution = ["player 1 turn", "player 2 turn"];
     var i = 0;
     document.getElementById("btn01").addEventListener("click", choose);
@@ -216,7 +222,44 @@
                           }
                           document.getElementById("yourTurn").innerHTML = solution[j]
                       }
+ label1.addEventListener("click", bigWinner);
+ label2.addEventListener("click", bigWinner );
+ label3.addEventListener("click", bigWinner);
+ label4.addEventListener("click", bigWinner );
+ label5.addEventListener("click", bigWinner);
+ label6.addEventListener("click", bigWinner);
+ label7.addEventListener("click", bigWinner);
+ label8.addEventListener("click", bigWinner);
+ label9.addEventListener("click", bigWinner);
+ 
+ function bigWinner(){
+if(label1.innerHTML === "X" & label2.innerHTML ==="X" & label3.innerHTML ==="X"){
+    document.getElementById("youAreTheWinner").innerHTML="You are the winner";
+}
+ }
+let allPawns = [ label1, label2, label3, label4, label5, label6, label7, label8, label9];
+ let allClick= [
+ label1.addEventListener("click", computerPlay),
+ label2.addEventListener("click", computerPlay ),
+ label3.addEventListener("click", computerPlay),
+ label4.addEventListener("click", computerPlay ),
+ label5.addEventListener("click", computerPlay),
+ label6.addEventListener("click", computerPlay),
+ label7.addEventListener("click", computerPlay),
+ label8.addEventListener("click", computerPlay),
+ label9.addEventListener("click", computerPlay),
+ ]
+//math.floor(math.round);
+ function computerPlay() {
+    let random = allPawns(math.floor(math.random))
+ }
+     if(label1 = "" ){
+         computerPlay();
+         
+         
+     }
 
+ 
 
 
           

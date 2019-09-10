@@ -251,11 +251,10 @@ if(label1.innerHTML === "X" & label4.innerHTML === "X" & label7.innerHTML === "X
 } else {
     if(label3.innerHTML=== "X" & label6.innerHTML==="X" & label9.innerHTML ==="X"){
         document.getElementById("youAreTheWinner").innerHTML = "You are the winner";
-    }else {
-        document.getElementById("youAreTheWinner").innerHTML = "You are the winner";
     
+    }else {
         
-/*
+
     if(label1.innerHTML === "O" & label2.innerHTML ==="O" & label3.innerHTML ==="O"){
         document.getElementById("youAreTheWinner").innerHTML="You are the winner";
     } else {
@@ -336,3 +335,5 @@ let allPawns = [ label1, label2, label3, label4, label5, label6, label7, label8,
         }
     }
 
+}
+ }

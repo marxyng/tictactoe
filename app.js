@@ -252,6 +252,7 @@ if(label1.innerHTML === "X" & label4.innerHTML === "X" & label7.innerHTML === "X
     if(label3.innerHTML=== "X" & label6.innerHTML==="X" & label9.innerHTML ==="X"){
         document.getElementById("youAreTheWinner").innerHTML = "You are the winner";
     
+    
     }else {
         
 
@@ -283,23 +284,9 @@ if(label1.innerHTML === "X" & label4.innerHTML === "X" & label7.innerHTML === "X
          /*  
         
            
-
-
-    
-
     
     
-
-
-
-
-
-
-
-
-
-
-
+    
  /*
 let allPawns = [ label1, label2, label3, label4, label5, label6, label7, label8, label9];
  let allClick= [

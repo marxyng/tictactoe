@@ -1,0 +1,22 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "game of x's and o's",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marxyng/tictactoe.git"
+  },
+  "author": "Marco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marxyng/tictactoe/issues"
+  },
+  "homepage": "https://github.com/marxyng/tictactoe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
